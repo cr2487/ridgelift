@@ -6,7 +6,7 @@
   "repository": "https://github.com/cr2487/ridgelift",
   "author": "cr2487",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "workspaces": [
     "support/**",
     "core/**",
