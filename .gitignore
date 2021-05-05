@@ -1,0 +1,32 @@
+node_modules
+priv
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+*/dist/*
+*/build/*
+
+# Ignore temp data
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+# Ignore .env files
+*.env
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/

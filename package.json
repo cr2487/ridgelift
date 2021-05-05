@@ -1,0 +1,22 @@
+{
+  "name": "ridgelift",
+  "version": "1.0.0",
+  "description": "Ridgelift",
+  "main": "index.js",
+  "repository": "https://github.com/cr2487/ridgelift",
+  "author": "cr2487",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "support/**",
+    "core/**",
+    "web/**"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
